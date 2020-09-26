@@ -3,6 +3,7 @@
 <li>Searching</li>
 <li>Favourite</li>
 <li>Saving Favourite To LocalStorage</li>
+<li>Number Pagination</li>
 <li>No Database, Just LocalStorage</li>
 </ul>
 
