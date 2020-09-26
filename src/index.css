@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(70, 85, 90);
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar ul > li {
+  padding: 0 10px;
+  color: #fff;
+}
+
+a.navbar-brand,
+a.navbar-link {
+  color: #fff;
+}
+
+.author img {
+  border-radius: 50% !important;
+  width: 10%;
+  height: 10%;
+}
+.author {
+  display: flex;
+  cursor: pointer;
+}
+.author p {
+  padding-left: 18px;
+  line-height: 2.1;
+}
+
+span.name {
+  font-weight: bold;
+  font-size: 12.3px;
+  margin: 0 5px;
+}
+
+p.card-text {
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+  font-size: 28px;
+}
+
+p.card-text span:nth-child(1):hover {
+  color: red;
+}
+
+p.card-text span:nth-child(2):hover {
+  color: rgb(110, 128, 8);
+}
+
+p.card-text span:nth-child(3):hover {
+  color: rgba(238, 76, 76, 0.479);
+}
+.card-body > img,
+.card-body {
+  transition: transform 0.5s ease-in-out;
+}
+.card-body > img:hover {
+  transform: scale(1.1);
+}
+
+.empty {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  text-align: center;
+}
+
+.empty h4 {
+  padding: 20px 0;
+}
+
+img.card-img.img-thumbnail {
+  object-fit: cover !important;
+  height: 300px;
+  min-height: 200px;
+  width: 100%;
+  max-height: 200px;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+p.card-text a {
+  color: grey !important;
+}
+
+a.page-link {
+  color: #007bff !important;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+li.page-item.active a {
+  color: #fff !important;
+}
+.paginate {
+  display: flex !important;
+  justify-content: center !important;
+}
